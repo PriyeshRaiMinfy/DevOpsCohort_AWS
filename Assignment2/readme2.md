@@ -1,7 +1,8 @@
 ## Deploying a Secure, Public Web Server on AWS
 
 ## Step 0: Create a Key Pair
-![Key Pair](./images/keyPairs.png)
+<!-- ![Key Pair](./images/keyPairs.png) -->
+![Key Pair](../Assignment1/images/keyPairs.png)
 
 ---
 
@@ -10,7 +11,7 @@
 - **Name:** `PriyeshRaiAsg2-vpc`
 - **CIDR Block:** `10.0.0.0/16`
 
-![VPC](./images/custom_VPC.png)
+![VPC](../Assignment1/images/custom_VPC.png)
 
 ---
 
@@ -20,7 +21,7 @@
 - **CIDR Block:** `10.0.1.0/24`
 - **Availability Zone:** `ap-south-1a` or first in list
 
-![Subnet](./images/customSubnet.png)
+![Subnet](../Assignment1/images/customSubnet.png)
 
 ---
 
@@ -54,14 +55,14 @@
 
 - **Instance Type:** `t2.micro`
 - **Key Pair:** `Asg2-kp`
-![Key-pairs](../images/keyPairs.png)
+![Key-pairs](../Assignment1/images/keyPairs.png)
 - **Network Settings:**
   - VPC: `PriyeshRai-vpc`
   - Subnet: `PriyeshRai-subnet`
   - Public IP: Enabled
   - Security Group: `PriyeshRai-sg`
 
-![EC2 Instance](./images/ec2instance1.png)
+![EC2 Instance](../Assignment1/images/ec2instance1.png)
 
 ---
 
@@ -80,12 +81,12 @@ echo "<h1>Hello i am Priyesh Rai, tech Intern at minfy</h1>" > /var/www/html/ind
 ![Output](./images2/output.png)
 
 ## Cleanup
-![Output](../images/Screenshot%202025-06-11%20144230.png)
-![Output](../images/Screenshot%202025-06-11%20144240.png)
-![Output](../images/Screenshot%202025-06-11%20144246.png)
-![Output](../images/Screenshot%202025-06-11%20144258.png)
-![Output](../images/Screenshot%202025-06-11%20144332.png)
-![Output](../images/Screenshot%202025-06-11%20144344.png)
+![Output](../Assignment1/images/Screenshot%202025-06-11%20144230.png)
+![Output](../Assignment1/images/Screenshot%202025-06-11%20144240.png)
+![Output](../Assignment1/images/Screenshot%202025-06-11%20144246.png)
+![Output](../Assignment1/images/Screenshot%202025-06-11%20144258.png)
+![Output](../Assignment1/images/Screenshot%202025-06-11%20144332.png)
+![Output](../Assignment1/images/Screenshot%202025-06-11%20144344.png)
 
 ## NAT GATEWAY WORKING
 ![Nat Gateway Working](./images2/natgatewayWorking.png)
